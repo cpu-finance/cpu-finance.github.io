@@ -1,0 +1,30 @@
+.sticky-table th {
+    /* stick header on the top for vertical scrolling */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* display header in the foreground */
+    z-index: 1;
+    /* make header opaque during vertical scrolling */
+    background-color: lightseagreen;
+}
+
+.sticky-table th:nth-child(2) {
+    /* stick 2nd th on the left for horizontal scrolling */
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    /* display 2nd th in the foreground */
+    z-index: 2;
+    /* make 2nd th opaque during horizontal scrolling */
+    background-color: lightseagreen;
+}
+
+.sticky-table td:nth-child(2) {
+    /* stick 2nd td on the left for horizontal scrolling */
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    /* make 2nd td opaque during horizontal scrolling */
+    background-color: white;
+}
