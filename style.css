@@ -6,7 +6,7 @@
     /* display header in the foreground */
     z-index: 1;
     /* make header opaque during vertical scrolling */
-    background-color: lightseagreen;
+    background-color: #055A33;
 }
 
 .sticky-table th:nth-child(2) {
@@ -17,7 +17,7 @@
     /* display 2nd th in the foreground */
     z-index: 2;
     /* make 2nd th opaque during horizontal scrolling */
-    background-color: lightseagreen;
+    background-color: #055A33;
 }
 
 .sticky-table td:nth-child(2) {
